@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center_vertical"
+        >
+
+        <ImageButton
+            android:id="@+id/imBtnChooseImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_camera_alt_24"
+            android:paddingHorizontal="45dp"
+            android:paddingVertical="20dp"
+            android:backgroundTint="@color/red"
+            android:layout_marginHorizontal="20dp"
+            />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcvImages"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginEnd="10dp"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

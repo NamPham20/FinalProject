@@ -1,0 +1,8 @@
+<!-- slide_in_translation.xml -->
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate
+        android:interpolator="@android:interpolator/decelerate_quint"
+        android:fromXDelta="-100dp"
+    android:toXDelta="0dp"
+    android:duration="500" />
+</set>

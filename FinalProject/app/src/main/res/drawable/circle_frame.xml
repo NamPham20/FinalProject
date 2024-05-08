@@ -1,0 +1,5 @@
+<!-- res/drawable/circle_frame.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="#D12B3C"/>
+</shape>
